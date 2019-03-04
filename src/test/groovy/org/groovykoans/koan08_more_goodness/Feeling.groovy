@@ -1,0 +1,24 @@
+/*
+ * Copyright (c) 2012-2014 nadavc <https://twitter.com/nadavc>
+ * This work is free. You can redistribute it and/or modify it under the
+ * terms of the WTFPL, Version 2, as published by Sam Hocevar.
+ * See the COPYING file for more details.
+ */
+
+package org.groovykoans.koan08_more_goodness
+
+public enum Feeling {
+    Happy, Sad, Neutral, Suicidal, Anticipation, Surprised, Relaxed, Guilty
+
+    // ------------ START EDITING HERE ----------------------
+    boolean isCase(Person person) {
+        person.feelings.contains(this)
+    }
+
+    boolean isCase(Cartoon cartoon) {
+        cartoon.feeling == this
+    }
+    // ------------ STOP EDITING HERE  ----------------------
+
+
+}

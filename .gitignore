@@ -1,0 +1,12 @@
+.idea
+*.iml
+*.ipr
+*.iws
+.gradle
+.project
+.classpath
+build
+out
+movies_copy.xml
+.settings/
+/bin/
